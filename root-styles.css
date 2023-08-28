@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Align website content */
+.wrapper {
+    padding: 0 100px;
+    max-width: 1250px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+/* aliceblue color (same as color2) */
+body {
+    background-color: aliceblue;
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid green;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: white;
+    color: green;
+}
+
+
+/* for green texts in sentences */
+span{
+    color: green;
+}
+
+/* For section separation */
+section{
+    padding: 70px 0;
+}
+
+/* Aliceblue section class*/
+.color1{
+    background-color: aliceblue;
+}
+
+/* White section class */
+.color2{
+    background-color: white;
+}
+
+/* Footer section color */
+.footer-color{
+    background-color: rgba(26, 26, 26, 0.821);
+}
+

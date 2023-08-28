@@ -1,20 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: aliceblue;
-}
-
-.wrapper {
-  padding: 0 100px;
-  max-width: 1250px;
-  min-width: 1000px;
-  margin: 0 auto;
-}
-
+/* ===== Header ====== */
 .header {
   display: flex;
   align-items: center;
@@ -49,22 +33,10 @@ body {
   display: flex;
 }
 
-.btn {
-  display: inline-block;
-  background-color: green;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  border: 1px solid green;
-  margin-right: 20px;
-  cursor: pointer;
-  font-size: 16px;
+.head-btn .btn{
+  margin-right: 10px;
 }
 
-.btn:hover {
-  background-color: white;
-  color: green;
-}
 
 /* ======= Home ======*/
 
@@ -81,32 +53,14 @@ body {
   margin-right: 25px;
 }
 
-.home-text span {
-  color: green;
-}
-
 .home-text p {
   font-size: 1rem;
   margin: 16px 0;
   color: rgba(90, 86, 86, 0.842);
 }
 
+
 /* ===== Our Clients ===== */
-
-.clients {
-  margin: 40px 0;
-}
-
-.client-text {
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-.client-text p {
-  margin-top: 8px;
-  font-size: 14px;
-  color: grey;
-}
 
 .client-icons {
   display: flex;
@@ -118,4 +72,160 @@ body {
 .client-icons img {
   width: 48px;
   height: 48px;
+}
+
+.community{
+  margin-top: 60px;
+}
+.section-title {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.section-title p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: grey;
+}
+
+
+/* ====  Community ==== */
+
+.com-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.com-box{
+  text-align: center;
+  width: 300px;
+  padding: 0 20px;
+}
+
+.com-icon{
+  position: relative;
+}
+.com-icon h3{
+  margin-top: 12px;
+}
+
+.rectangle{
+  width: 50px;
+  height: 49px;
+  position: absolute;
+  background-color: rgba(131, 224, 131, 0.2);
+  top: 15px;
+  left: 47%;
+  border-radius: 10px 5px 18px 5px;
+}
+
+.com-box p{
+  margin: 8px 24px 24px 24px;
+  font-size: 14px;
+  color: rgba(90, 86, 86, 0.842);
+  line-height: 20px;
+}
+
+
+/* ======= Body(main) Section ======= */
+
+.body-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  padding-right: 60px;
+  margin-left: 30px;
+}
+
+.text p{
+margin: 16px 0 32px 0;
+}
+
+
+/* ===== counts ===== */
+.count-heading{
+  min-width: 500px;
+}
+
+.count-heading p{
+  margin-top: 8px;
+}
+
+.counts{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.count-box{
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.count-box img{
+  margin-right: 25px;
+}
+
+
+/* ====== Contac us ====== */
+
+.contact-label{
+  text-align: center;
+}
+
+.contact-label h1{
+  margin-bottom: 32px;
+  font-size: 3rem;
+  color: rgba(77, 76, 76, 0.916);
+}
+
+
+/* ======== Footer ====== */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-info p{
+  margin: 32px 0;
+  line-height: 28px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-links img{
+  cursor: pointer;
+}
+
+.footer-details{
+  display: flex;
+}
+
+.footer-details h2{
+  margin-bottom: 16px;
+}
+
+.footer-details ul li{
+  cursor: pointer;
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.company{
+  margin-right: 60px;
 }
